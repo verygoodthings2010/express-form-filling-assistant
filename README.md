@@ -1,37 +1,24 @@
-# 快递表单填表助手
+# 自动填表程序  
 
-#### 介绍
-为解决填快递表单头疼的问题
+## 介绍  
 
-#### 软件架构
-软件架构说明
+这个程序用于从文本字符串中解析数据，并将其填充到 Excel 表格中。主要用途是将收件人信息（如姓名、手机号码、重量、数量和地址）从输入文本提取并填入指定的 Excel 文件中。  
 
+## 功能  
 
-#### 安装教程
+- 从用户指定的 Excel 文件中读取表头  
+- 从多行文本中提取收件人信息  
+- 填充收件人姓名、手机号码、重量、数量和地址到 Excel 表格中  
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## 使用方法  
+  
+1.运行程序：
+运行脚本后，会弹出用户界面，您可以选择 Excel 文件并输入收件人信息。
 
-#### 使用说明
+2.输入格式：
+收件人信息应按照以下格式输入，每行一个信息块，字段之间可用中文逗号或空格分隔。示例格式：
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+张三 13800138000 5斤 3箱 北京市海淀区某街道  
+李四 13900139000 10斤 2箱 上海市浦东新区某路  
+3.提交信息：
+输入完毕后，点击“提交”按钮。程序将会解析文本，并在 Excel 表中填写相应信息。
